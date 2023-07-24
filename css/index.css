@@ -1,0 +1,141 @@
+*{
+    box-sizing: border-box;
+}
+
+.home{
+    background-image: url(../image/intro-bg.jpg);
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+    color: white;
+    color: #fff;
+    
+}
+.header{
+    margin-top: -60px;
+} 
+h1{
+    font-size: 60px;
+
+   
+   
+}
+.nave{
+    position: fixed;
+    left: 0px;
+    top: 0px;
+   display:flex;
+    z-index: 34566;
+    height: 100vh;
+   width: 350px;
+   align-items:center;
+   overflow: hidden;
+  
+}
+.nave .hide{
+    padding: 25px 10px;
+    height: 100vh;
+    background-color: #414658;
+}
+
+.nave .hide ul{
+  list-style: none;
+  font-size: 28px;
+  color: #fff;
+  font-weight: 500;
+}
+.nave .hide ul li{
+    padding: 15px 0px ;
+}
+.nave .hide ul li a{
+ 
+    transition: all .5s;
+    text-decoration: none;
+    color: #fff;
+}
+.nave .hide ul li a:hover {
+    color: rgba(214, 46, 51, 0.4) !important;
+}
+.about{
+    margin: 100px 0px;
+} 
+.about .con{
+    padding-top: 20px;
+    width: 50%;
+    margin: auto;
+    background-color: #e68285;
+    text-align: center;
+}
+.about .con h3{
+  color: #fff;
+  padding: 15px 0px;
+}
+.about .con p{
+    background-color: #ccc;
+    padding: 10px 20px;
+    display: none;
+  
+}
+.duration{
+    background-image: url(../image/invitation-2508607__340.jpg);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position:left;
+    position: relative;
+     background-size: cover;
+     height: 50vh ;
+   
+}
+.overlay{
+    position: absolute;
+    top:0px;
+    left:0px;
+    bottom:0px;
+    right:0px;
+    background-color: rgba(230, 130, 133,.7);
+
+} 
+.duration  .dev div{
+   border:1px solid #fff;
+ 
+  
+   padding:40px 5px;
+}
+.duration  .dev div p{
+    text-align: center;
+    color:#fff;
+    font-size: 35px;
+}
+.contact{
+    padding: 100px ;
+ 
+}
+.contact p{
+     padding: 10px 0px;
+     color: #777;
+
+}
+
+.icon span i{
+    display: inline-block;
+    padding: 10px;
+    padding-right: 10px !important;
+    
+    border: 1px #777 solid;
+    background-color: #fff;
+    color: #777;
+    font-size: 18px;
+    text-align: center;
+    margin-right: 10px;
+}
+.icon span i:hover{
+    color: #fff;
+    background-color: #D62E33;
+}
+.count{
+    display: inline-block;
+    color: #D62E33;
+    font-size: 20px;
+    font-weight: 600;
+    margin-right: 10px;
+}
